@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        li  a{
+            font-family:inherit;
+            list-style-type: disc;
+            text-decoration: solid;
+            font-style:inherit;
+            display:inline-block;
+
+        }
+        h1 {
+            font-size:xx-large;
+         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color:black;  
+          text-align: center;
+        }
+        body{
+            background-position: center;
+            background-size: cover;
+            background-image:url(image13.jpg);
+        }
+        img{
+            display: flex; 
+            flex-wrap: wrap; 
+            justify-content: center; 
+            justify-self: center;
+            height:400px;
+            width: 400px;
+            border-radius: 30px;
+        }
+       p {
+            font-family:'Times New Roman', Times, serif;
+            font-size: large;
+            border-color: black;
+        }
+        h2{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: black;
+        }
+        @media (max-width:500px){
+            h1{
+                font-size: large;
+            }
+            h2{
+                font-size: medium;
+            }
+            li a{
+                font-size: small;
+                margin-left: 3px;
+            }
+            p{
+                font-size: medium;
+            }
+            img{
+                display: flex; 
+            flex-wrap: wrap; 
+            justify-content: center; 
+            justify-self: center;
+            height: 270px;
+            width: 270px;
+            border-radius: 30px;
+            }
+
+        }
+    </style>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Photography</h1>
+        <h2>Capturing beauty through my lens</h2>
+        <p>Hi everyone ,
+Photography, to me, is more than just capturing moments - it's an art form that allows me to express my creativity, tell stories,
+and connect with the world around me.</p>
+<p> With every click of the shutter, I feel like I'm freezing a moment in time,
+preserving a memory that can be cherished for years to come.</p>
+
+        <img src="image7.jpg" alt="Image 6">
+            
+    </main>
+</body>
+</html>
